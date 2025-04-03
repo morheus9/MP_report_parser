@@ -7,7 +7,7 @@ go mod tidy
 ```
 #### Build for windows
 ```
-CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" main.go
+CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -ldflags="-s -w"
 ```
 #### Build for linux
 ```
