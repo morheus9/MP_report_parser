@@ -13,7 +13,7 @@ CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" main.go
 ```
 CGO_ENABLED=0 go build -ldflags="-s -w"
 ```
-#### Copy your zipped reports and start script
+#### Copy your's zipped reports and start script
 ```
 ./main
 ```
